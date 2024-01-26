@@ -1,0 +1,40 @@
+
+body{
+  margin: 0;
+  padding: 0;
+   background: radial-gradient(420.42% 190.85% at -9.97% -19.81%, rgba(0, 0, 0, 0.99) 0%, rgba(116, 116, 116, 0.00) 79.15%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+main#goals{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+#goals .goals-card{
+  width: 587px;
+  height: 669px;
+  flex-shrink: 0;
+  border-radius: 97px;
+  background: linear-gradient(180deg, #393939 0%, rgba(0, 0, 0, 0.00) 100%);
+  box-shadow: -33px 27px 75.2px -9px rgba(0, 0, 0, 0.80);
+}
+
+#goals .goals-card h1{
+  color: white;
+  text-align: center;
+}
+
+#goals input[type]{
+  border:none;
+  outline: none;
+  width: 225px;
+  height: 46px;
+  border-radius: 28px;
+}
+
+#goals .checkbox{
+  border-radius: 50%;
+}
